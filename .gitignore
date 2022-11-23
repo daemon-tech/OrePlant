@@ -5,6 +5,8 @@ build/
 out/
 classes/
 
+buil.gradle
+
 # eclipse
 
 *.launch
