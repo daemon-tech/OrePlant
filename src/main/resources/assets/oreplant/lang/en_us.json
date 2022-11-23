@@ -6,5 +6,12 @@
     "item.oreplant.diamond_dust": "Diamond Dust",
     "item.oreplant.diamond_seed_item": "Diamond Seeds",
 
-    "itemGroup.oreplant.iron_item_group": "Ore Plants"
+    "item.oreplant.iron_dust.tooltip": "Ore Plant",
+    "item.oreplant.iron_seed_item.tooltip": "Ore Plant",
+    "item.oreplant.gold_dust.tooltip": "Ore Plant",
+    "item.oreplant.gold_seed_item.tooltip": "Ore Plant",
+    "item.oreplant.diamond_dust.tooltip": "Ore Plant",
+    "item.oreplant.diamond_seed_item.tooltip": "Ore Plant",
+
+    "itemGroup.oreplant.oreplant_item_group": "Ore Plants"
 }

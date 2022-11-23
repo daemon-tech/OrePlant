@@ -24,7 +24,7 @@ public class OrePlant implements ModInitializer {
 	public static final String MODNAME = "OrePlant";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MODNAME);
 
-	//ItemGroup COTTON_ITEM_GROUP
+	//ItemGroup ORE_ITEM_GROUP
 	public static final ItemGroup OREPLANT_ITEM_GROUP = FabricItemGroupBuilder.create(
 				new Identifier(OrePlant.MOD_ID, "oreplant_item_group"))
                 .icon(() -> new ItemStack(Items.BOWL))
