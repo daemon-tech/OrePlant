@@ -13,6 +13,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static net.daemon.oreplant.blocks.ModBlock.IRON_CROP_BLOCK;
+import static net.daemon.oreplant.blocks.ModBlock.GOLD_CROP_BLOCK;
 import net.daemon.oreplant.blocks.ModBlock;
 import net.daemon.oreplant.items.ModItems;
 
@@ -32,6 +33,7 @@ public class OrePlant implements ModInitializer {
 	public void onInitialize() {
 
 		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), IRON_CROP_BLOCK);
+		BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), GOLD_CROP_BLOCK);
 
 		ModItems.registerItems();
 		ModBlock.registerBlock();

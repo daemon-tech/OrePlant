@@ -19,6 +19,9 @@ public class ModItems {
     public static final Item GOLD_DUST = new Item(new FabricItemSettings()
     .group(OrePlant.OREPLANT_ITEM_GROUP));
 
+    public static final Item DIAMOND_DUST = new Item(new FabricItemSettings()
+    .group(OrePlant.OREPLANT_ITEM_GROUP));
+
     // -> Seed Items <-
 
     public static final Item IRON_SEED_ITEM = new AliasedBlockItem(
@@ -26,7 +29,11 @@ public class ModItems {
         .group(OrePlant.OREPLANT_ITEM_GROUP));
 
     public static final Item GOLD_SEED_ITEM = new AliasedBlockItem(
-        ModBlock.IRON_CROP_BLOCK, new Item.Settings()
+        ModBlock.GOLD_CROP_BLOCK, new Item.Settings()
+        .group(OrePlant.OREPLANT_ITEM_GROUP));
+
+    public static final Item DIAMOND_SEED_ITEM = new AliasedBlockItem(
+        ModBlock.DIAMOND_CROP_BLOCK, new Item.Settings()
         .group(OrePlant.OREPLANT_ITEM_GROUP));
 
     public static void registerItems() {
@@ -40,6 +47,10 @@ public class ModItems {
             Registry.ITEM, new Identifier(
                 OrePlant.MOD_ID, "gold_seed_item"), GOLD_SEED_ITEM);
 
+        Registry.register(
+            Registry.ITEM, new Identifier(
+                OrePlant.MOD_ID, "diamond_seed_item"), DIAMOND_SEED_ITEM);
+
 
         //Normal Items Register
         Registry.register(
@@ -49,6 +60,10 @@ public class ModItems {
         Registry.register(
             Registry.ITEM, new Identifier(
                 OrePlant.MOD_ID, "gold_dust"), GOLD_DUST);
+
+        Registry.register(
+            Registry.ITEM, new Identifier(
+                OrePlant.MOD_ID, "diamond_dust"), DIAMOND_DUST);
     }
 
 }

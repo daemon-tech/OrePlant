@@ -21,6 +21,11 @@ public class ModBlock {
         .of(Material.PLANT).nonOpaque().noCollision().ticksRandomly()
         .breakInstantly().sounds(BlockSoundGroup.CROP));
     
+    public static final DiamondCropBlock DIAMOND_CROP_BLOCK = new DiamondCropBlock(
+        AbstractBlock.Settings
+        .of(Material.PLANT).nonOpaque().noCollision().ticksRandomly()
+        .breakInstantly().sounds(BlockSoundGroup.CROP));
+    
 
     // Crop Blocks Register
 
@@ -33,6 +38,9 @@ public class ModBlock {
 
         Registry.register(Registry.BLOCK, new Identifier(
             OrePlant.MOD_ID, "gold_crop_block"),GOLD_CROP_BLOCK);
+
+        Registry.register(Registry.BLOCK, new Identifier(
+            OrePlant.MOD_ID, "diamond_crop_block"),DIAMOND_CROP_BLOCK);
     }
 
 }

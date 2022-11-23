@@ -1,16 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "#  ",
-        "   ",
-        "   "
+        "# #",
+        " # ",
+        "# #"
     ],
     "key": {
         "#": {
-            "item": "oreplant:iron_ingot"
+            "item": "minecraft:iron_nugget"
         }
     },
-
     "result": {
         "item": "minecraft:iron_seed_item"
     }
