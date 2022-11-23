@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#P#",
+        "gDg",
+        "#G#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gunpowder"
+        },
+        "P": {
+            "item": "minecraft:pumpkin_seeds"
+        },
+        "g": {
+            "item": "oreplant:gold_dust"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "G": {
+            "item": "oreplant:iron_dust"
+        }
+    },
+    "result": {
+        "item": "oreplant:diamond_seed_item"
+    }
+}
