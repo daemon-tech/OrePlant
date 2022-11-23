@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "oreplant:item/gold_seed_item"
+    }
+}

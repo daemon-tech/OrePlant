@@ -1,6 +1,8 @@
 {
     "item.oreplant.iron_dust": "Iron Dust",
     "item.oreplant.iron_seed_item": "Iron Seeds",
+    "item.oreplant.gold_dust": "Gold Dust",
+    "item.oreplant.gold_seed_item": "Gold Seeds",
 
     "itemGroup.oreplant.iron_item_group": "Ore Plants"
 }

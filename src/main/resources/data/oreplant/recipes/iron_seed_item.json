@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#  ",
+        "   ",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "oreplant:iron_ingot"
+        }
+    },
+
+    "result": {
+        "item": "minecraft:iron_seed_item"
+    }
+}

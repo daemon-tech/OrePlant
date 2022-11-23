@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oreplant:gold_dust"
+        }
+    },
+
+    "result": {
+        "item": "minecraft:gold_ingot"
+    }
+}

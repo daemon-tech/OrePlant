@@ -1,6 +1,8 @@
 {
     "item.oreplant.iron_dust": "Eisen Staub",
     "item.oreplant.iron_seed_item": "Eisen Samen",
+    "item.oreplant.gold_dust": "Gold Staub",
+    "item.oreplant.gold_seed_item": "Gold Samen",
 
     "itemGroup.oreplant.iron_item_group": "Metal Pflanzen"
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "oreplant:block/gold_crop_block_stage5"
+    }
+}
