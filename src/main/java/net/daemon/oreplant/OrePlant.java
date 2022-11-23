@@ -14,18 +14,18 @@ import org.slf4j.LoggerFactory;
 public class OrePlant implements ModInitializer {
 
 	public static final String MOD_ID = "oreplant";
+	public static final String MODNAME = "OrePlant";
+	public static final Logger LOGGER = LoggerFactory.getLogger(MODNAME);
 
 	//ItemGroup COTTON_ITEM_GROUP
-	public static final ItemGroup COTTON_ITEM_GROUP = FabricItemGroupBuilder.create(
+	public static final ItemGroup OREPLANT_ITEM_GROUP = FabricItemGroupBuilder.create(
 				new Identifier(OrePlant.MOD_ID, "oreplant_item_group"))
-                .icon(() -> new ItemStack(Items.WHEAT))
+                .icon(() -> new ItemStack(Items.BOWL))
                 .build();
-
-	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("OrePlants says Hello!");
+		LOGGER.info(MODNAME + "Loading now! Thanks for installing! <3");
 	}
 }

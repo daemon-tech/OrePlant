@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "net.daemon.oreplant.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [],
+    "client": [
+        "oreplantMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
