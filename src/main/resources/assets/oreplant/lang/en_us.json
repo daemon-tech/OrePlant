@@ -3,6 +3,8 @@
     "item.oreplant.iron_seed_item": "Iron Seeds",
     "item.oreplant.gold_dust": "Gold Dust",
     "item.oreplant.gold_seed_item": "Gold Seeds",
+    "item.oreplant.diamond_dust": "Diamond Staub",
+    "item.oreplant.diamond_seed_item": "Diamond Samen",
 
     "itemGroup.oreplant.iron_item_group": "Ore Plants"
 }
