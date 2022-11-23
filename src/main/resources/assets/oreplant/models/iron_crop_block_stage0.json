@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "oreplant:block/iron_crop_block_stage0"
+    }
+}
